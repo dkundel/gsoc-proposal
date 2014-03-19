@@ -33,7 +33,11 @@ them and I can focus more on designing and implementing the actual front-end.
 ### Why are you interested in CodeCombat?
 I did not have any programming experience whatsoever when I started my studies. JavaScript was not taught in class
 so I started learning it through educational pages such as Codecademy. Since then I was always interested in teaching
-other people (mainly without CS background) how to code and that JavaScript is easy to learn.
+other people (mainly without CS background) how to code and that JavaScript is easy to learn. 
+
+I think CodeCombat approaches the problem of teaching non-programmers programming in a nicer way than projects such as Codecademy thanks to the game aspect. It makes the learning less of actual learning and more having fun and not realizing you are learning something super useful.
+
+Additionally I like how CodeCombat offers a very welcoming environment to new contributors even if they don't have any experience with open-source projects. CodeCombat is still in such an early state and has in my opinion so much potential. I would love to push it forward to become more and more popular, either through Google Summer of Code contributions or just through contributions in my leisure time.
 
 ### What have you already contributed to CodeCombat?
 - I changed the line highlighting in Tome
