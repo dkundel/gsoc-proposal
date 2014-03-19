@@ -114,7 +114,7 @@ Implement basic selectors for variables and method arguments.
 #### August 11
 Implementation of advanced selector statement
 
-### August 18
+#### August 18
 Wrap up of project, last fixes and testing.
 
 
