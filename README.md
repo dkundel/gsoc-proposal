@@ -60,11 +60,29 @@ As writing on a phone or tablet requires way more effort than on a normal keyboa
 be written should be minimal. To achieve that I thought of a smart autocomplete that on the one hand knows which
 functions are available and on the other hand, when selected, inputs a snippet like code just like you have in Sublime
 or Atom. The parts of the code that can be edited has prefilled default values that can be alternated using the
-selectors described below.
+selectors described below. The offered functions are not limited to the width of the screen but more functions are
+available when swipping to the side. The auto suggestions are not displayed above the text you are writing but
+instead close to the keyboard to reduce the way between keyboard and autocomplete.
+
+Using this approach a command such as `this.setAction` is the result of typing at most 6 characters. Afterwards you
+can stick to the default value or click on the action to switch to another one. If you feel like swipping to the
+side you can even reduce the number of characters. Alternatively you just use the code libary described in the next
+section.
 
 ![Autocomplete](auto-complete-screenshot-small.png)
 
-#### 3. Code changes through selectors
+#### 3. Code Library
+
+In case you want to avoid typing on the keyboard at all you can also open the code library through a button that appears
+once you hide the keyboard. It displays all available spells, functions and variables that are available. Additional
+color highlighting in front of the code categorizes the snippets to allow a faster picking of the desired code snippet.
+The snippet will be on click inserted into the code at the current position in the same fashion as described earlier and
+can then be modified using the selectors described below, by using again the code library or the autocomplete or by
+sticking to the default values.
+
+![Code Library](code-library-screenshot-small.png)
+
+#### 4. Code changes through selectors
 Again we try to minimize the amount of code that needs to be written. So after the smart autocomplete added a new
 snippet we can alternate it by clicking on the respective parts. If we click on a function argument it knows
 immediately potential arguments and gives you the choice to select from these. As another example we can click on
