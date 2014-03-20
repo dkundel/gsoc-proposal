@@ -97,9 +97,19 @@ code.
 
 ![Advanced Selector](selector-if-statement-screenshot-small.png)
 
+
+#### 5. Code oriented key board
+Another approach would be to use a code oriented keyboard as other programs do. However as CodeCombat is currently designed
+as a web application we do not have direct access in manipulating the keyboard and would have to build instead a screen keyboard.
+While this is doable it would most probably not reach the performance of the standard keyboard and therefore an evaluation would
+be necessary to see if the performance would still benefit from such a change even with having the smart autocomplete and the
+other features.
+
+#### 6. Others Remarks
+
 To increase the area of code visible to you, you can also hide the unit selector row as shown in the last screenshot.
 
-While I think ideally we would have in the end a completely responsive webapp for CodeCombat I think at the moment
+While I think ideally we would have in the end a completely responsive web applicaton for CodeCombat I think at the moment
 the most feasible option would be to create a separate page for the mobile version. Therefore part of the project would
 be also to move the necessary parts of the play view to the mobile version.
 
